@@ -1,0 +1,1 @@
+docker run -ti --rm --name cqa-2c30e5 -v $(pwd)/coolq:/home/user/coolq -e VNC_PASSWD=is2c30e5 -e COOLQ_ACCOUNT=1234567890 --net=host richardchien/cqhttp:latest
